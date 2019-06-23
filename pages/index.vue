@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">
-        nuxt-strapi-sapmle-app
-      </h1>
+      <Hello />
       <h2 class="subtitle">
         My beautiful Nuxt.js project
       </h2>
@@ -25,10 +23,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Hello from '~/components/Hello.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Hello
   }
 }
 </script>
